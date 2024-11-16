@@ -8,7 +8,7 @@ const auth = (req, res, next) => {
         res.json({
             mag: 'Youre not authorized to acess this!!'
         }
-        );
+        )
     }
 }
 
