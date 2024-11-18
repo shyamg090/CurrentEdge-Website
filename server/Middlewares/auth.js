@@ -6,7 +6,7 @@ const auth = (req, res, next) => {
         next();
     } catch (error) {
         res.json({
-            mag: 'Youre not authorized to acess this!!'
+            mag: 'You\'re not authorized to acess this!!'
         }
         )
     }
